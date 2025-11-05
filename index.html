@@ -4,21 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Robert's Magnificent Odin-Recipes</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+
+        ul {
+
+            color:black;
+
+            font-size: 32px;
+            font-family: comic sans ms, sans-serif;
+
+            display: flex;
+
+            list-style: none;
+
+            justify-content: center;
+            gap: 50px;
+
+        }
+
+        li {
+
+            flex-wrap: nowrap;
+            display: inline-block;
+
+        }
+
+    </style>
+    
 </head>
 
 <body>  
 
-    <h1>recipes</h1>
-    <img src="assets\recipe-book.jpg">
+    <h1 class="head">Recipes</h1>
+    <p><img class="recipe-book" src="assets/recipe-book.jpg"></p>
 
     <!--unordered list of recipes-->
-    <h2>
+
         <ul>
-            <li><a href="recipes\lasagna.html">Lasagna Recipe</a></li>
-            <li><a href="recipes\meatloaf.html">Meatloaf Recipe</a></li>
-            <li><a href="recipes\chocolate-cookie.html">Chocolate Cookie Recipe</a></li>
+            <li><a href="recipes/lasagna.html">Lasagna Recipe</a></li>
+            <li><a href="recipes/meatloaf.html">Meatloaf Recipe</a></li>
+            <li><a href="recipes/chocolate-cookie.html">Chocolate Cookie Recipe</a></li>
         </ul>
-    </h2>
 
 </body>
 
